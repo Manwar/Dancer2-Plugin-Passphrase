@@ -3,6 +3,7 @@ use strict;
 use warnings;
 use Carp qw(carp);
 use MIME::Base64 qw(encode_base64);
+use Scalar::Util qw(blessed);
 
 use overload (
     '""' => sub {

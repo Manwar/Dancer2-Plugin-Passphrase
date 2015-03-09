@@ -19,3 +19,4 @@ t/008_unicode_matching.t
 t/009_exception_handling.t
 t/011_alternative_bcrypt.t
 t/013_hashes_generated_elsewhere.t
+t/014_undefined_sub_routine_blessed.t
